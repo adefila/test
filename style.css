@@ -140,7 +140,13 @@ padding: 1.3rem;
     }
 }
 
-
+@media (max-width:720px) and (min-width:720px){
+    .hero__content{
+        font-size: 40px;
+        position: relative;
+        top: 800px;
+    }
+}
 
 
 @media (max-width: 768px) { 
@@ -163,6 +169,14 @@ padding: 1.3rem;
 @media only screen and (max-width:578px){
     .hero__content-2{
         font-size: 14px;
+    }
+}
+
+@media (max-width:720px) and (min-width:720px){
+    .hero__content-2{
+        position: relative;
+        top: 800px;
+        font-size: 30px;
     }
 }
 
@@ -202,6 +216,14 @@ padding: 1.3rem;
 @media only screen and (max-width:320px){
     .content__btn{
         margin-left: 110px;
+    }
+}
+
+@media (max-width:720px) and (min-width:720px){
+    .content__btn{
+        width: 20%;
+        margin-top: 520px;
+        margin-left: 270px;
     }
 }
 
@@ -378,6 +400,12 @@ padding: 1.3rem;
 @media(max-width:575.85px){
     .portfolio__img{
         margin-left: 70px;
+    }
+}
+
+@media (max-width:720px) and (min-width:720px){
+    .portfolio__img{
+        margin-left: 100px;
     }
 }
 
