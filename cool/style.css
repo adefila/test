@@ -1,0 +1,354 @@
+/*
+Theme Name: Cool Theme
+Theme URI: goggle.com
+Description: really cool theme
+version: 1.0
+Author:Adefila Samuel
+Author URI: google.com
+
+*/
+
+
+
+*{
+    padding: 0;
+    scroll-behavior: smooth;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Jump button */
+#myBtn {
+    background-color: midnightblue;
+    display: none; 
+    position: fixed;
+    bottom: 110px; 
+    right: 30px;
+    z-index: 99;
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 3px; 
+    font-size: 18px; 
+    align-items: center;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(0, 89, 255); 
+  }
+  @media (max-width: 767.98px) { 
+    #myBtn{
+        position: relative;
+        right: -270px;
+        bottom: 10px;
+        
+    }
+}
+
+
+/* Mobile Navigation */
+
+.navbar-toggler{
+    border: transparent;
+}
+
+.fa-bars{
+    color: #fff;
+}
+
+/* Navigation */
+.navbar{
+background: transparent;
+background: transparent;  
+background: transparent; 
+padding: 1.3rem;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-size: 3rem; 
+    font-weight: bold;
+    font-family: 'Merriweather Sans';
+    color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width:960px){
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+}
+
+.navbar-brand:hover {
+    color: #ffff;
+}
+
+.nav-item{
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 15px;
+    position: relative;
+    left: 50px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    transition: all .5s ease-in-out;
+}
+
+
+
+.navbar-nav .nav-link:hover {
+    color:midnightblue;
+     transition: all .5s ease-in-out;
+}
+
+
+/* Hero image */
+.hero-image{
+    margin-top: -100px;
+    background-image:linear-gradient(rgba(76, 71, 76, 0.76),rgba(76, 71, 76, 0.76)),url('img/hero__section.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 110vh;
+}
+
+
+.hero__content{
+    font-family: 'roboto';
+    font-size: 80px;
+    font-weight: 700;
+    position: relative;
+    top: 320px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+@media only screen and (max-width:960px){
+    .hero__content{
+        font-size: 40px;
+    }
+}
+
+.hero__content-2{
+    font-family: 'roboto';
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    position: relative;
+    font-style: italic;
+    top: 310px;
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+@media only screen and (max-width:578px){
+    .hero__content-2{
+        font-size: 14px;
+    }
+}
+
+.content__btn{
+    width: 20%;
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 630px;
+    transition: all .3s ease-in-out;
+    border: midnightblue;
+}
+
+@media only screen and (max-width:578px){
+    .content__btn{
+        margin-left: 140px;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .content__btn{
+        margin-left: 120px;
+    }
+}
+
+.content__btn:hover{
+     transition: all .3s ease-in-out;
+    background-color: midnightblue;
+    border: midnightblue;
+}
+
+
+/* About section */
+.about__container{
+   background-color: rgb(27, 27, 143);
+    height: 25vh;
+}
+
+.about__text{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+
+.about__line{
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-top: 12px;
+    width: 30%;
+    border-top: 3px solid rgb(255, 255, 255);
+}
+
+.about__text-2{
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+/* our services */
+
+.ourservices__text{
+    color: midnightblue;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    margin-bottom: 55px;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+
+.ourservices__line{
+    border-top: 2px solid red;
+}
+
+.services__picture{
+    filter: grayscale(10);
+    width: 50% !important;
+    transition: all .9s ease-in-out;
+}
+
+.services__picture:hover{
+    cursor: pointer;
+    transform:scale(0.8);
+}
+
+.service-text{
+    color: midnightblue;
+    margin-left: -250px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 70px;
+}
+.service-text-2{
+    color: rgb(172, 39, 39);
+    margin-left: -250px;
+    font-family: 'Poppins';
+    margin-top: 15px;
+}
+
+.text__line{
+    border-top: 2px solid red;
+}
+
+/* Portfolio Container */
+
+.portfolio__container{
+     background:rgb(27, 27, 143);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.portfolio__img{
+    margin-bottom: 40px;
+    width: 60% !important;
+}
+
+.portfolio__text{
+     color: rgb(253, 253, 253);
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    margin-bottom: 80px;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+
+.contact__text-2{
+    position: relative;
+    top: -30px;
+    font-family: 'Poppins';
+}
+
+.portfolio__heading{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: -350px;
+}
+
+.portfolio__text-1{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 17px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+     margin-left: -300px;
+}
+
+/* Contact us */
+.contact__text{
+    margin-top: 30px;
+    font-family: 'Poppins';
+    color: midnightblue;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+
+.contactus__container{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Footer */
+.footer__container{
+    background-color: rgb(27, 27, 143);
+    padding: 20px;
+}
+
+.address__heading{
+    color: white;
+    font-size: 23px;
+    color: rgb(172, 39, 39);
+}
+
+.address, .phone, .email{
+    color: white;
+    font-family: 'Poppins';
+    margin-top: 19px;
+}
