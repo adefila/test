@@ -264,7 +264,7 @@ padding: 1.3rem;
 }
 
 .content__btn:hover{
-     transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
     background-color: midnightblue;
     border: midnightblue;
 }
@@ -568,4 +568,39 @@ padding: 1.3rem;
 .footer__link:hover{
     transition: all .5s ease-in-out;
     color: grey;
+}
+
+
+
+
+
+.filter-button
+{
+    border: midnightblue;
+    font-size: 18px;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 12px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    transition: all .5s ease-in-out;
+}
+.filter-button:hover
+{
+    background-color: midnightblue;
+    border: midnightblue;
+    font-size: 18px;
+    border-radius: 3px;
+    text-align: center;
+    color: #ffffff;
+}
+.filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
 }
