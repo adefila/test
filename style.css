@@ -535,6 +535,33 @@ padding: 1.3rem;
     color: grey;
 }
 
+#footer{
+background-color: #141E30;
+    padding: 10px;
+}
+   
+#footer__text{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Poppins';
+}
 
+#footer__text-2{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Poppins';
+    margin-top: 9px;
+}
 
+#footer__link{
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Poppins';
+    transition: all .5s ease-in-out;
+}
+
+#footer__link:hover{
+    text-decoration: black;
+    color: black;
+}
 
