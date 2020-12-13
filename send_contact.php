@@ -1,24 +1,17 @@
-<!-- / Contact subject -->
-$subject ="$subject"; 
-// Details
-$message="$detail";
+?php
 
-<!-- // Mail of sender -->
-$mail_from="$customer_mail"; 
-// From 
-$header="from: $name <$mail_from>";
 
-<!-- // Enter your email address -->
-$to ='leumastech123@gmail.com';
+if($_POST["message"]) {
 
-$send_contact=mail($to,$subject,$message,$header);
 
-<!-- // Check, if message sent to your email 
-// display message "We've recived your information" -->
-if($send_contact){
-echo "We've recived your contact information";
+mail("leumastech123@gmail.com.address", "Here is the subject line",
+
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+
 }
-else {
-echo "ERROR";
-}
+
+
 ?>
+
