@@ -367,13 +367,8 @@ padding: 1.3rem;
     font-size: 20px;
     font-weight: 550;
     margin-top: 20px;
-    transition: all .5s ease-in-out !important;
 }
 
-.service-text:hover{
-    color: #b10000;
-    cursor: pointer;
-}
 
 @media(max-width:578px){
     .service-text{
