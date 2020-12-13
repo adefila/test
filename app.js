@@ -1,16 +1,19 @@
-//Get the button:
-mybutton = document.getElementById("myBtn");
+// Back-to-top
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () { scrollFunction() };
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+        $('.back-to-top').fadeIn('slow');
     } else {
-        mybutton.style.display = "none";
+        $('.back-to-top').fadeOut('slow');
     }
-}
+});
+
+$('.back-to-top').click(function () {
+    $('html, body').animate({
+        scrollTop: 0
+    }, 1500, 'easeInOutExpo');
+    return false;
+});
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
