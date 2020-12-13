@@ -540,6 +540,7 @@ padding: 1.3rem;
 }
 
 .address, .phone, .email{
+    font-size: 15px;
     color: white;
     font-family: 'Poppins';
     margin-top: 19px;
@@ -566,6 +567,7 @@ padding: 1.3rem;
 }
 
 .footer__link{
+     font-size: 15px;
     display: block;
     text-decoration: none;
     color: white;

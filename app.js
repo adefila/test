@@ -21,7 +21,7 @@ function topFunction() {
 // data-aos
 AOS.init(
     {
-        duration: 2500
+        duration: 2000
     }
 )
 
