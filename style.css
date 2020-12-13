@@ -415,82 +415,38 @@ padding: 1.3rem;
     background: linear-gradient(to right, #243B55, #141E30);
 }
 
-.portfolio__img{
-    margin-bottom: 50px;
-    width: 60% !important;
-}
 
-@media(max-width:320px){
-    .portfolio__img{
-        margin-left: 60px !important;
-    }
-}
-
-
-
-@media(max-width:575.85px){
-    .portfolio__img{
-        margin-left: 70px;
-    }
-}
-
-@media (max-width:720px) and (min-width:720px){
-    .portfolio__img{
-        margin-left: 100px;
-    }
-}
-
-.portfolio__text{
-     color: rgb(253, 253, 253);
-    text-transform: uppercase;
+.filter-button
+{
+    border: midnightblue;
+    font-size: 18px;
+    border-radius: 3px;
     text-align: center;
-    position: relative;
-    top: 50px;
-    margin-bottom: 80px;
-    font-size: 25px;
-    font-family: 'Poppins';
+    margin-right: 12px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    transition: all .5s ease-in-out;
 }
-
-.portfolio__heading{
+.filter-button:hover
+{
+    background-color: midnightblue;
+    border: midnightblue;
+    font-size: 18px;
+    border-radius: 3px;
+    text-align: center;
+    color: #ffffff;
+}
+.filter-button:active
+{
+    background-color: #42B32F;
     color: white;
-    font-family: 'Poppins';
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left: -350px;
 }
 
-@media(max-width:578px){
-    .portfolio__heading{
-        margin-top: -38px;
-        font-size: 20px;
-        margin-left: 10px;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
+.gallery_product
+{
+    margin-bottom: 30px;
 }
 
-.portfolio__text-1{
-    color: white;
-    font-family: 'Poppins';
-    font-size: 17px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-     margin-left: -300px;
-}
-
-@media(max-width:578px){
-    .portfolio__text-1{
-        margin-top: -4px;
-        margin-left: 12px;
-        font-size: 15px;
-        margin-bottom: 50px;
-
-    }
-}
 
 /* Contact us */
 .contact__text{
@@ -573,34 +529,3 @@ padding: 1.3rem;
 
 
 
-
-.filter-button
-{
-    border: midnightblue;
-    font-size: 18px;
-    border-radius: 3px;
-    text-align: center;
-    margin-right: 12px;
-    color: #ffffff;
-    margin-bottom: 30px;
-    transition: all .5s ease-in-out;
-}
-.filter-button:hover
-{
-    background-color: midnightblue;
-    border: midnightblue;
-    font-size: 18px;
-    border-radius: 3px;
-    text-align: center;
-    color: #ffffff;
-}
-.filter-button:active
-{
-    background-color: #42B32F;
-    color: white;
-}
-
-.gallery_product
-{
-    margin-bottom: 30px;
-}
