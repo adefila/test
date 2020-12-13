@@ -23,6 +23,7 @@
     border-radius: 3px; 
     font-size: 18px; 
     align-items: center;
+    opacity: 0.8;
   }
   
   #myBtn:hover {
@@ -42,9 +43,36 @@
     color: #fff;
 }
 
+.fa-times{
+    font-size: 20px;
+    color: #ffffff;
+    background: transparent;
+}
+
+.modal-header{
+    background: #141E30;
+    background: -webkit-linear-gradient(to right, #243B55, #141E30); 
+    background: linear-gradient(to right, #243B55, #141E30); 
+    border: transparent;
+}
+
+.btn-close{
+    color: #ffffff;
+}
+
+.modal-body{
+     background: #141E30;
+    background: -webkit-linear-gradient(to right, #243B55, #141E30); 
+    background: linear-gradient(to right, #243B55, #141E30); 
+    border: transparent;
+}
 
 .modal-link{
-    color: #141E30;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
     text-decoration: none;
     font-size: 17px;
     margin-top: 40px;
@@ -294,7 +322,7 @@ padding: 1.3rem;
 .ourservices__text{
     color: #141E30;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     position: relative;
     top: 50px;
     margin-bottom: 55px;
@@ -309,7 +337,9 @@ padding: 1.3rem;
 .services__picture{
     filter: grayscale(10);
     width: 50% !important;
-    transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out !important;
+    margin-top: -12px;
+    margin-bottom: 12px;
 }
 
 @media(max-width:320px){
@@ -325,8 +355,9 @@ padding: 1.3rem;
 }
 
 .services__picture:hover{
+    filter: grayscale(0);
     cursor: pointer;
-    transform:scale(0.8);
+    transform:scale(0.8) !important;
 }
 
 .service-text{
@@ -335,7 +366,13 @@ padding: 1.3rem;
     font-family: 'Poppins';
     font-size: 20px;
     font-weight: 550;
-    margin-top: 70px;
+    margin-top: 20px;
+    transition: all .5s ease-in-out !important;
+}
+
+.service-text:hover{
+    color: #b10000;
+    cursor: pointer;
 }
 
 @media(max-width:578px){
