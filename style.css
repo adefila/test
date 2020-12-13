@@ -415,11 +415,11 @@ padding: 1.3rem;
     background: linear-gradient(to right, #243B55, #141E30);
 }
 
-
 .filter-button
 {
     border: midnightblue;
-    font-size: 18px;
+    font-family: 'Poppins';
+    font-size: 16px;
     border-radius: 3px;
     text-align: center;
     margin-right: 12px;
@@ -431,7 +431,6 @@ padding: 1.3rem;
 {
     background-color: midnightblue;
     border: midnightblue;
-    font-size: 18px;
     border-radius: 3px;
     text-align: center;
     color: #ffffff;
@@ -447,6 +446,21 @@ padding: 1.3rem;
     margin-bottom: 30px;
 }
 
+
+.portfolio__text{
+     color: rgb(253, 253, 253);
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    margin-bottom: 80px;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+
+.img-responsive{
+    margin-bottom: 50px;
+}
 
 /* Contact us */
 .contact__text{
