@@ -587,12 +587,14 @@ background-color: #141E30;
 }
    
 #footer__text{
+    font-size: 14px;
     color: #ffffff;
     text-align: center;
     font-family: 'Poppins';
 }
 
 #footer__text-2{
+    font-size: 14px;
     color: #ffffff;
     text-align: center;
     font-family: 'Poppins';
@@ -600,6 +602,7 @@ background-color: #141E30;
 }
 
 #footer__link{
+    font-size: 14px;
     text-decoration: none;
     color: #ffff;
     font-family: 'Poppins';
