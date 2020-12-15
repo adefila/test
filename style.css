@@ -382,7 +382,7 @@ padding: 1.3rem;
 
 .service-text{
     color: #141E30;
-    margin-left: -250px;
+    margin-left: -285px;
     font-family: 'Poppins';
     font-size: 20px;
     font-weight: 550;
@@ -416,7 +416,7 @@ padding: 1.3rem;
 
 .service-text-2{
     color: #302b63;
-    margin-left: -250px;
+    margin-left: -285px;
     font-family: 'Poppins';
     margin-top: 15px;
 }
@@ -468,17 +468,6 @@ padding: 1.3rem;
     text-align: center;
     color: #ffffff;
 }
-.filter-button:active
-{
-    background-color: #42B32F;
-    color: white;
-}
-
-.gallery_product
-{
-    margin-bottom: 30px;
-}
-
 
 .portfolio__text{
      color: rgb(253, 253, 253);
@@ -492,7 +481,7 @@ padding: 1.3rem;
 }
 
 .img-responsive{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 @media (max-width:578px){
