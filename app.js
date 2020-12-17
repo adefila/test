@@ -1,4 +1,4 @@
-// Back-to-top
+// back to top
 
 $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
@@ -14,6 +14,7 @@ $('.back-to-top').click(function () {
     }, 1500, 'easeInOutExpo');
     return false;
 });
+
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {

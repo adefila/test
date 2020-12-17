@@ -8,34 +8,37 @@
 
 
 /* Jump button */
-#myBtn {
-    background-color: midnightblue;
-    display: none; 
-    position: fixed;
-    bottom: 110px; 
-    right: 30px;
-    z-index: 99;
-    border: none; 
-    outline: none; 
-    cursor: pointer; 
-    padding-right: 10px;
-    padding-left: 10px;
-    border-radius: 3px; 
-    font-size: 18px; 
-    align-items: center;
-    opacity: 0.8;
-  }
-  
-@media (max-width:578px){
-    #myBtn{
-        margin-left: -13px;
-    }
+.back-to-top{
+    display: none;
+   position: fixed;
+   right: 15px;
+   bottom: 15px;
+   z-index: 99999;
 }
 
-  #myBtn:hover {
-    background-color: rgb(0, 89, 255); 
-  }
 
+
+.back-to-top i{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 17px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+     border-radius: 4px;
+    background-color: rgb(221, 19, 19);
+    transition: all 0.4s;
+}
+
+.back-to-top i:hover{
+    background-color: rgb(221, 61, 61);
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+}
 
 
 
