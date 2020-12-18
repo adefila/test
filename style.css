@@ -1,10 +1,13 @@
 *{
+    scroll-behavior: smooth;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
+a{
+    text-decoration: none;
+}
 
 /* Jump button */
 .back-to-top{
@@ -141,6 +144,15 @@ padding: 1.3rem;
 
 
 /* Hero image */
+
+.greetings{
+    position: relative;
+    top: 150px;
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-size: 30px;
+}
+
 .hero-image{
     margin-top: -100px;
     background-image:linear-gradient(rgba(76, 71, 76, 0.76),rgba(76, 71, 76, 0.76)),url('img/hero__section.jpg');
@@ -490,6 +502,23 @@ padding: 1.3rem;
     .img-responsive{
         margin-bottom: 20px;
     }
+}
+
+
+#portfolio__link{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'poppins';
+    margin-left: 70px;
+    margin-top: -50px;
+    margin-bottom: 12px;
+    transition: all .5s ease-in-out;
+}
+
+#portfolio__link:hover{
+   color: rgb(187, 5, 5);
 }
 
 /* Contact us */
