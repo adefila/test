@@ -138,7 +138,7 @@ padding: 1.3rem;
 
 
 .navbar-nav .nav-link:hover {
-    color:midnightblue;
+    color:rgb(29, 29, 230);
      transition: all .5s ease-in-out;
 }
 
