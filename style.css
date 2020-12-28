@@ -548,9 +548,22 @@ padding: 1.3rem;
     font-family: 'poppins';
 }
 
+@media(max-width:720px)
+{
+    .business__hour{
+        margin-top: 50px;
+    }
+}
 .business__container{
     background-color: #141E30;
     padding: 12px;
+}
+
+@media(max-width:720px)
+{
+    .business__container{
+        margin-bottom: 50px;
+    }
 }
 
 .business__text{
