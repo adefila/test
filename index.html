@@ -24,6 +24,8 @@
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
+
+
     <!-- Animate on scroll -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- My Custom Css -->
@@ -81,7 +83,8 @@
                 <div class="row">
                     <div class="col-12">
                         <h1 class="about__text" data-aos="zoom-in">About us</h1>
-                        <p class="about__text-2" data-aos="zoom-out">LEUMAS TECH is a team
+                        <p class="about__text-2" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">LEUMAS
+                            TECH is a team
                             technology organization which
                             plays an
                             important in
@@ -107,59 +110,48 @@
                 <div class="row">
                     <div class="col-12">
                         <h2 class="ourservices__text" data-aos="zoom-in">Our Services</h2>
-                        <hr class="ourservices__line">
                     </div>
                 </div>
             </div>
+
+
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-md-6">
-                        <div class="service-1">
-                            <img src="img/3.jpg" class="w-100 services__picture" data-aos="zoom-out">
+                    <div class="col-md-6">
+                        <div class="service__container" data-aos="flip-up">
+                            <div class="text-center">
+                                <img src="img/web_development.png" class="w-100 service__img">
+                            </div>
+                            <h3 class="service__heading">Web Development | Web Design | Web Management</h3>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6">
-                        <h2 class="service-text" data-aos="zoom-in">Web Development | Web Management | Web Design
-                        </h2>
-                        <p class=" service-text-2" data-aos="fade-in">We develop a mobile reponsive
-                            website(suitable
-                            for all all
-                            devices),<br>manage all comapny or
-                            businesses webpage and we make sure all<br> your visitors informations are 100% secured
-                            along
-                            side We provides<br> tempaltes of websites and designs.</p>
-                    </div>
-                    <hr class="text__line">
-                    <div class="col-sm-6 col-md-6">
-                        <div class="service-1">
-                            <img src="img/5 (1).jpg" class="w-100 services__picture" data-aos="zoom-out">
+                    <div class="col-md-6">
+                        <div class="service__container" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="text-center">
+                                <img src="img/software & hardware.png" class="w-100 service__img">
+                            </div>
+                            <h3 class="service__heading">Software and Hardware Solution</h3>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6">
-                        <h2 class="service-text" data-aos="zoom-in">Vector Drawings | Graphics Design </h2>
-                        <p class="service-text-2" data-aos="fade-in">We help with 3D/2D pictures which are more
-                            presentable<br> and awesome,we
-                            design all types of logos,flyers e.t.c.
-                            We<br> also help in re-branding logos and help your businesses with ADs. </p>
-                    </div>
-                    <hr class="text__line">
-                    <div class="col-sm-6 col-md-6">
-                        <div class="service-1">
-                            <img src="img/4 (1).jpg" class="w-100 services__picture" data-aos="zoom-out">
+                    <div class="col-md-6">
+                        <div class="service__container" data-aos="zoom-in">
+                            <div class="text-center">
+                                <img src="img/software & hardware.png" class="w-100 service__img">
+                            </div>
+                            <h3 class="service__heading">Software and Hardware Solution</h3>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6">
-                        <h2 class="service-text" data-aos="zoom-in">Software Solution | Hardware Solution </h2>
-                        <p class=" service-text-2" data-aos="fade-in">Do you have any difficulties in dealing with
-                            your
-                            hardware<br> and
-                            software
-                            we help to solve the problems of hardware and software at ease.</p>
+                    <div class="col-md-6">
+                        <div class="service__container" data-aos="zoom-in">
+                            <div class="text-center">
+                                <img src="img/software & hardware.png" class="w-100 service__img">
+                            </div>
+                            <h3 class="service__heading">Software and Hardware Solution</h3>
+                        </div>
                     </div>
-                    <hr class="text__line">
                 </div>
             </div>
-        </div>
     </section>
 
 
@@ -176,63 +168,16 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="text-center">
-                            <button class="btn btn-secondary filter-button" data-filter="all">All</button>
-                            <button class="btn btn-secondary filter-button" data-filter="web">Website</button>
-                            <button class="btn btn-secondary filter-button" data-filter="graphics">Graphics
-                                Design</button>
-                            <button class="btn btn-secondary filter-button" data-filter="vector">Vector
-                                Drawings</button>
-                        </div>
+                    <div class="col-md-4">
+                        <img src="img/web.jpg" class="w-100 portfolio__img">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/wart__web.jpg" class="w-100 portfolio__img">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/sailor__web.jpg" class="w-100 portfolio__img">
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row display-flex">
-                        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
-                            <a href="https://sailor.netlify.app/" class="img-responsive w-100"><img
-                                    src="img/sailor__web.jpg" class="img-responsive w-100"></a>
-                        </div>
-
-                        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter vector">
-                            <img src="img/vector-1.jpg" class="img-responsive w-100">
-                        </div>
-
-                        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter graphics">
-                            <img src="img/graphics.png" class="img-responsive w-100">
-                        </div>
-
-                        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter vector">
-                            <img src="img/vector-3.jpg" class="img-responsive w-100">
-                        </div>
-
-                        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
-                            <a href="#" class="img-responsive w-100"><img src="img/wart__web.jpg"
-                                    class="img-responsive w-100"></a>
-
-                        </div>
-
-                        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter graphics">
-                            <img src="img/leumas-tech.png" class="img-responsive w-100">
-                        </div>
-
-
-                        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
-                            <a href="#" class="img-responsive w-100"><img src="img/web.jpg"
-                                    class="img-responsive w-100"></a>
-                        </div>
-
-                        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter graphics">
-                            <img src="img/new_flyer.jpg" class="img-responsive w-100">
-                        </div>
-
-                        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter vector">
-                            <img src="img/vector-2.jpg" class="img-responsive w-100">
-                        </div>
-
-                    </div>
-                </div>
-
             </div>
     </section>
 
@@ -263,13 +208,13 @@
                     <div class="col-md-3">
                         <h2 class="business__hour">Business Hours</h2>
                         <div class="business__container">
-                            <p class="business__text">Monday-- 7:00am-7:00pm</p>
-                            <p class="business__text">Tuesday-- 7:00am-7:00pm</p>
-                            <p class="business__text">Wednesday-- 7:00am-7:00pm</p>
-                            <p class="business__text">Thursday-- 7:00am-7:00pm</p>
-                            <p class="business__text">Friday-- 7:00am-7:00pm</p>
-                            <p class="business__text">Saturday-- 7:00am-7:00pm</p>
-                            <p class="business__text">Sunday-- Closed</p>
+                            <p class="business__text">Monday <i class="fas fa-arrow-right"></i> 7:00am-7:00pm</p>
+                            <p class="business__text">Tuesday <i class="fas fa-arrow-right"></i> 7:00am-7:00pm</p>
+                            <p class="business__text">Wednesday <i class="fas fa-arrow-right"></i> 7:00am-7:00pm</p>
+                            <p class="business__text">Thursday <i class="fas fa-arrow-right"></i> 7:00am-7:00pm</p>
+                            <p class="business__text">Friday <i class="fas fa-arrow-right"></i> 7:00am-7:00pm</p>
+                            <p class="business__text">Saturday <i class="fas fa-arrow-right"></i> 7:00am-7:00pm</p>
+                            <p class="business__text">Sunday <i class="fas fa-arrow-right"></i> Closed</p>
                         </div>
                     </div>
                 </div>
@@ -306,7 +251,8 @@
                         <a href="https://web.facebook.com/leumastech/" id="nav-social"><i
                                 class="fab fa-facebook-square"></i></i></a>
                         <a href="https://twitter.com/LeumasTech" id="nav-social"><i class="fab fa-twitter"></i></a>
-                        <a href="https://wa.link/94pfci" id="nav-social"><i class="fab fa-whatsapp"></i></i></a>
+                        <a href="https://wa.me/message/4NSCYNDWCFBIG1" id="nav-social"><i
+                                class="fab fa-whatsapp"></i></i></a>
                         <a href="https://www.instagram.com/leumas_technology/" id="nav-social"><i
                                 class="fab fa-instagram"></i></a>
                     </div>
