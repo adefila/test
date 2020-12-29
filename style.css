@@ -307,7 +307,7 @@ padding: 1.3rem;
 /* About section */
 .about__container{
     background: #659dbd;
-    height: 20vh;
+    height: 18vh;
 }
 
 @media only screen and (max-width:578px){
