@@ -1,5 +1,31 @@
-// back to top
 
+
+alert('Welcome to LEUMAS-TECH')
+
+// Navigation padding on scroll
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        document.getElementById("navbar").style.fontSize = "15px";
+        document.getElementById("navbar").style.padding = "0.6rem";
+        document.getElementById("navbar").style.backgroundColor = "#557a95";
+        document.getElementById("navbar").style.filter(opacity = 0.5)
+
+    } else {
+        document.getElementById("navbar").style.fontSize = "20px";
+        document.getElementById("navbar").style.padding = "0.9rem";
+        document.getElementById("navbar").style.backgroundColor = "transparent"
+        document.getElementById("navbar").style.boxShadow = "none"
+    }
+}
+
+
+
+
+
+
+// back to top
 $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
         $('.back-to-top').fadeIn('slow');
@@ -12,7 +38,7 @@ $('.back-to-top').click(function () {
     $('html, body').animate({
         scrollTop: 0
     }, 1500, 'easeInOutExpo');
-    return false;
+    return true;
 });
 
 
@@ -25,7 +51,9 @@ function topFunction() {
 // data-aos
 AOS.init(
     {
-        duration: 2200
+        duration: 3000,
+        delay: 400,
+
     }
 )
 
