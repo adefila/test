@@ -432,7 +432,7 @@ padding: 1.3rem;
 
 @media(max-width:720px){
     .service__container{
-        height: 43vh !important;
+        height: 45vh !important;
         margin-bottom: 10px !important;
     }
 
