@@ -1,6 +1,6 @@
 
 
-alert('Welcome to LEUMAS-TECH')
+//alert('Welcome to LEUMAS-TECH')
 
 // Navigation padding on scroll
 window.onscroll = function () { scrollFunction() };
@@ -9,7 +9,7 @@ function scrollFunction() {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         document.getElementById("navbar").style.fontSize = "15px";
         document.getElementById("navbar").style.padding = "0.6rem";
-        document.getElementById("navbar").style.backgroundColor = "#557a95";
+        document.getElementById("navbar").style.backgroundColor = "#2e424d";
         document.getElementById("navbar").style.filter(opacity = 0.5)
 
     } else {
