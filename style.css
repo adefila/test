@@ -169,7 +169,7 @@ a:hover {
 
 .hero-image {
     margin-top: -100px;
-    background-image: linear-gradient(rgba(31, 30, 31, 0.76), rgba(43, 43, 43, 0.76)), url('/test-main/img/bg-img.JPG');
+    background-image: linear-gradient(rgba(31, 30, 31, 0.76), rgba(43, 43, 43, 0.76)), url('https://test-main.github.io/bg-img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
